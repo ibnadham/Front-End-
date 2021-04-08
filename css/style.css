@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+/* Global */
+h1, h2 {
+  color: #66bfbf;
+}
+
+h2, h3, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cloud1, .cloud2 {
+  width: 150px;
+  position: absolute;
+}
+
+.bottom-container, .btn {
+  background-color: #66BFBF;
+}
+
+/* Main Page */
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+h1 {
+  font-size: 5.657rem;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+
+.cloud1 {
+  top: 30px;
+  right: 250px;
+}
+
+.cloud2 {
+  top: 350px;
+  left: 300px;
+}
+
+.mountain {
+  width: 50%;
+}
+
+/* Middle Container */
+.prof {
+  width: 13%;
+  margin: 100px auto 0;
+}
+
+.profile>p {
+  width: 40%;
+  margin: auto;
+}
+
+/* Skills */
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.ability {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #d6d6d6;
+  margin: 80px auto;
+  width: 4%;
+}
+
+/* Contact Me */
+.contact-me>p {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.btn {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* Bottom Container */
+.bottom-container {
+  height: 150px;
+  margin-top: 60px;
+  background-color: #f6f6f6;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  position: relative;
+  top: 40px;
+  margin: auto 20px;
+}
+
+.bottom-container>p {
+  position: relative;
+  top: 60px;
+}
